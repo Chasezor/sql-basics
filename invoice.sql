@@ -3,10 +3,10 @@ SELECT * FROM invoice;
 SELECT COUNT(*) FROM invoice
 WHERE billing_country = 'USA';
 
-SELECT MAX(*) FROM invoice
+SELECT MAX(total) FROM invoice
 WHERE billing_country = 'USA';
 
-SELECT MIN(*) FROM invoice
+SELECT MIN(total) FROM invoice
 WHERE billing_country = 'USA';
 
 SELECT * FROM invoice
